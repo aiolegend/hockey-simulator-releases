@@ -1,45 +1,42 @@
 # Hockey Simulator — сборки
 
-Хоккейный менеджер КХЛ для Windows, Android и iPhone.
+Хоккейный менеджер КХЛ и МХЛ для Windows, Android и iPhone.
 
-## Скачать
+Текущая версия — **0.2.0**: МХЛ, настоящий календарь и результаты сезона КХЛ 2026/27, прогноз сезона и матчей. Полный список изменений — на странице [Releases](https://github.com/aiolegend/hockey-simulator-releases/releases/latest) и во вкладке «Что нового» лаунчера.
 
-Все файлы последней версии лежат на странице **[Releases](https://github.com/aiolegend/hockey-simulator-releases/releases/latest)**.
+## Что скачать
 
-Текущая версия — **0.1.0**:
-- [Лаунчер для Windows](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.1.0/HockeySimulator-Launcher-Setup-0.1.1.exe) (103 МБ)
-- [Игра для Windows без лаунчера, zip](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.1.0/HockeySimulator-0.1.0-win-x64.zip) (140 МБ)
-- [Android, APK](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.1.0/HockeySimulator-0.1.0.apk) (4 МБ)
-- [iPhone, IPA](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.1.0/HockeySimulator-0.1.0.ipa) (1,3 МБ)
-
-| Устройство | Файл | Как установить |
+| Устройство | Файл | |
 |---|---|---|
-| Windows | `HockeySimulator-Launcher-Setup-<версия>.exe` | Запустить установщик, в лаунчере нажать «Установить». Лаунчер сам обновляет игру. |
-| Windows без лаунчера | `HockeySimulator-<версия>-win-x64.zip` | Распаковать архив и запустить `HockeySimulator.exe`. |
-| Android | `HockeySimulator-<версия>.apk` | Открыть файл на телефоне. Или поставить по кабелю через лаунчер: вкладка «Android». |
-| iPhone | `HockeySimulator-<версия>.ipa` | Через Sideloadly на Windows — инструкция ниже. |
+| **Windows** | [HockeySimulator-Launcher-Setup-0.2.0.exe](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-Launcher-Setup-0.2.0.exe) | Лаунчер. Ставит игру и обновляет её сам. |
+| **Android** | [HockeySimulator-0.2.0.apk](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-0.2.0.apk) | Ставится поверх старой версии, сохранения остаются. |
+| **iPhone** | [HockeySimulator-0.2.0.ipa](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-0.2.0.ipa) | Через Sideloadly, инструкция ниже. |
+
+Файл `HockeySimulator-…-win-x64.zip` нужен лаунчеру — отдельно его скачивать не нужно.
 
 ## Windows
 
-Если появится окно «Windows защитила компьютер», нажмите «Подробнее» → «Выполнить в любом случае». Так бывает, потому что у программы пока нет платного сертификата подписи.
+1. Запустите установщик лаунчера. Если появится «Windows защитила компьютер», нажмите «Подробнее» → «Выполнить в любом случае»: у программы пока нет платного сертификата.
+2. В лаунчере нажмите «Установить» — на рабочем столе появится значок «Hockey Simulator».
+3. Дальше всегда запускайте игру этим значком: новая версия скачается и поставится сама, сохранения не пострадают.
+
+У кого стоит лаунчер 0.1.x: один раз скачайте новый лаунчер 0.2.0 — дальше и он обновляется сам.
 
 ## Android
 
-1. Откройте APK на телефоне.
-2. Разрешите «Установку из неизвестных источников» для приложения, которым открыли файл.
+Откройте APK на телефоне и разрешите установку из неизвестных источников. Можно поставить и с ПК: в лаунчере вкладка «Android» — по кабелю или по QR-коду через домашний Wi-Fi.
 
-Если игра работает медленно, включите в игре «Настройки» → «Режим слабого устройства» и обновите «Android System WebView» в Play Маркете.
+На слабом телефоне (например, Galaxy J4) включите в игре «Настройки» → «Режим слабого устройства»; если сезон считается долго, создайте игру без МХЛ.
 
 ## iPhone (через Sideloadly, бесплатно)
 
-1. Установите iTunes с сайта Apple (не из Microsoft Store) и программу [Sideloadly](https://sideloadly.io/).
-2. Подключите iPhone кабелем к ПК и нажмите на телефоне «Доверять этому компьютеру».
-3. Перетащите `.ipa` в окно Sideloadly, введите свой Apple ID и нажмите **Start**.
-4. На iPhone доверьте профилю разработчика: «Настройки» → «Основные» → «VPN и управление устройством».
-5. Включите режим разработчика: «Настройки» → «Конфиденциальность и безопасность» → «Режим разработчика». iPhone перезагрузится.
+1. Установите [iTunes](https://www.apple.com/itunes/download/win64), [iCloud](https://updates.cdn-apple.com/2020/windows/001-39935-20200911-1A70AA56-F448-11EA-8CC0-99D41950005E/iCloudSetup.exe) (версии с сайта Apple, не из Microsoft Store) и [Sideloadly](https://sideloadly.io/SideloadlySetup64.exe).
+2. Подключите iPhone кабелем и нажмите «Доверять этому компьютеру».
+3. Перетащите `.ipa` в Sideloadly, введите Apple ID и нажмите **Start**. Если ошибка 503 — выключите VPN и попробуйте снова.
+4. На iPhone: «Настройки» → «Основные» → «VPN и управление устройством» → доверять; «Настройки» → «Конфиденциальность и безопасность» → «Режим разработчика».
 
-С бесплатным Apple ID приложение работает 7 дней. После этого его нужно переустановить так же, сохранения при этом остаются.
+С бесплатным Apple ID приложение работает 7 дней, потом его ставят заново так же — сохранения остаются.
 
 ## Проверка файлов
 
-`manifest.json` содержит контрольные суммы SHA-256 всех файлов и цифровую подпись. Лаунчер проверяет их перед установкой.
+`manifest.json` содержит контрольные суммы SHA-256 всех файлов и цифровую подпись; лаунчер проверяет их перед установкой.
