@@ -2,15 +2,15 @@
 
 Хоккейный менеджер КХЛ и МХЛ для Windows, Android и iPhone.
 
-Текущая версия — **0.2.0**: МХЛ, настоящий календарь и результаты сезона КХЛ 2026/27, прогноз сезона и матчей. Полный список изменений — на странице [Releases](https://github.com/aiolegend/hockey-simulator-releases/releases/latest) и во вкладке «Что нового» лаунчера.
+Текущая версия — **0.2.1**: обучение для новичков и простой режим, полный состав на матч, настоящие флаги стран, «Уйти из клуба» в карьере, расширенный редактор. Полный список изменений — на странице [Releases](https://github.com/aiolegend/hockey-simulator-releases/releases/latest) и во вкладке «Что нового» лаунчера.
 
 ## Что скачать
 
 | Устройство | Файл | |
 |---|---|---|
-| **Windows** | [HockeySimulator-Launcher-Setup-0.2.0.exe](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-Launcher-Setup-0.2.0.exe) | Лаунчер. Ставит игру и обновляет её сам. |
-| **Android** | [HockeySimulator-0.2.0.apk](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-0.2.0.apk) | Ставится поверх старой версии, сохранения остаются. |
-| **iPhone** | [HockeySimulator-0.2.0.ipa](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.0/HockeySimulator-0.2.0.ipa) | Через Sideloadly, инструкция ниже. |
+| **Windows** | [HockeySimulator-Launcher-Setup-0.2.0.exe](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.1/HockeySimulator-Launcher-Setup-0.2.0.exe) | Лаунчер. Ставит игру и обновляет её сам. |
+| **Android** | [HockeySimulator-0.2.1.apk](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.1/HockeySimulator-0.2.1.apk) | Ставится поверх старой версии, сохранения остаются. |
+| **iPhone** | [HockeySimulator-0.2.1.ipa](https://github.com/aiolegend/hockey-simulator-releases/releases/download/v0.2.1/HockeySimulator-0.2.1.ipa) | Через Sideloadly, инструкция ниже. |
 
 Файл `HockeySimulator-…-win-x64.zip` нужен лаунчеру — отдельно его скачивать не нужно.
 
